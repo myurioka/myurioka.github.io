@@ -1,1 +1,1 @@
-export { default } from "file:///home/myurioka/myurioka.github.io/node_modules/.pnpm/@nuxt+vite-builder@3.13.2_@types+node@22.7.4_magicast@0.3.5_rollup@4.23.0_terser@5.34.1_vue@3.5.10/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///home/myurioka/myurioka.github.io/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
