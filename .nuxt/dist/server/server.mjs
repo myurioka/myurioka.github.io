@@ -1,1 +1,0 @@
-export { default } from "file:///home/myurioka/myurioka.github.io/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
