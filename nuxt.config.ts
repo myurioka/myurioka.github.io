@@ -3,9 +3,6 @@ import { navbarData, seoData } from './data'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 
-  routeRules: {
-    '/': { prerender: false }
-  },
   app: {
     head: {
       charset: 'utf-16',
@@ -34,10 +31,11 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      crawlLinks: true,
-      routes: [
-        '/',
-      ],
+        failOnError: false,
+      //crawlLinks: true,
+      //routes: [
+      //  '/',
+      //],
     },
   },
 
