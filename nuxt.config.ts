@@ -4,7 +4,7 @@ import { navbarData, seoData } from './data'
 export default defineNuxtConfig({
 
   routeRules: {
-    '/': { prerender: true }
+    '/': { prerender: false }
   },
   app: {
     head: {
