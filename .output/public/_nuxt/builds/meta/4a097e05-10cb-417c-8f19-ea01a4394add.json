@@ -1,0 +1,1 @@
+{"id":"4a097e05-10cb-417c-8f19-ea01a4394add","timestamp":1729518041630,"matcher":{"static":{"/":{"prerender":true}},"wildcard":{},"dynamic":{}},"prerendered":["/about","/categories","/blogs","/blogs/fetch-content-data-render-pages","/categories/rust","/categories/wasm","/categories/webassembly"]}
