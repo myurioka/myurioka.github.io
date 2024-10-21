@@ -28,15 +28,6 @@ const sources = [
         },
         "urls": [
             {
-                "loc": "/about"
-            },
-            {
-                "loc": "/blogs"
-            },
-            {
-                "loc": "/categories"
-            },
-            {
                 "loc": "/"
             }
         ],
@@ -54,27 +45,6 @@ const sources = [
             "/",
             {
                 "loc": "/"
-            },
-            {
-                "loc": "/about"
-            },
-            {
-                "loc": "/categories"
-            },
-            {
-                "loc": "/blogs"
-            },
-            {
-                "loc": "/blogs/fetch-content-data-render-pages"
-            },
-            {
-                "loc": "/categories/rust"
-            },
-            {
-                "loc": "/categories/wasm"
-            },
-            {
-                "loc": "/categories/webassembly"
             }
         ],
         "sourceType": "app"
