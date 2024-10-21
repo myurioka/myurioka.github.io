@@ -2,6 +2,13 @@ import { navbarData, seoData } from './data'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  nitro: {
+    prerender: {
+      ignore: [
+        '/'
+      ]
+    }
+  },
   app: {
     head: {
       charset: 'utf-16',
