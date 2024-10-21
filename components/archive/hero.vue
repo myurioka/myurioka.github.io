@@ -4,7 +4,7 @@ import { blogsPage } from '~/data'
 
 <template>
   <div class="container mx-auto mb-5">
-    <div class="grid grid-cols-1 items-center">
+    <div class="grid grid-cols-1 sm:grid-cols-2 items-center">
       <div class="px-6">
         <h1 class="text-black dark:text-zinc-300 font-semibold leading-tight text-4xl md:text-5xl my-5">
           {{ blogsPage.title }}
@@ -12,6 +12,9 @@ import { blogsPage } from '~/data'
         <p class="dark:text-zinc-300">
           {{ blogsPage.description }}
         </p>
+      </div>
+      <div class="px-6 justify-self-center">
+        <LogoDogpow />
       </div>
     </div>
   </div>

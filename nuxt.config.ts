@@ -2,7 +2,6 @@ import { navbarData, seoData } from './data'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-
   app: {
     head: {
       charset: 'utf-16',
@@ -19,10 +18,11 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: 'https://myurioka.github.io',
+    url: seoData.mySite,
     identity: {
       type: 'Person',
     },
+    twitter: seoData.twitterHandle,
   },
 
   typescript: {
@@ -31,11 +31,11 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-        failOnError: false,
-      //crawlLinks: true,
-      //routes: [
-      //  '/',
-      //],
+      crawlLinks: true,
+      routes: [
+        '/',
+        '/rss.xml',
+      ],
     },
   },
 
@@ -49,6 +49,7 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/image',
     '@vueuse/nuxt',
+    'nuxt-og-image',
     '@nuxt/content',
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
