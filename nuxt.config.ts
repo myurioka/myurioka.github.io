@@ -29,10 +29,8 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    debug: true,
     prerender: {
       crawlLinks: true,
-      concurrency: 1,
       routes: [
         '/',
       ],

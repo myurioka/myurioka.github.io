@@ -56,13 +56,13 @@ const sources = [
                 "loc": "/"
             },
             {
-                "loc": "/blogs"
+                "loc": "/about"
             },
             {
                 "loc": "/categories"
             },
             {
-                "loc": "/about"
+                "loc": "/blogs"
             },
             {
                 "loc": "/blogs/fetch-content-data-render-pages"
