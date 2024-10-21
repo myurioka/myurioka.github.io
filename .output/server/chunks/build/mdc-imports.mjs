@@ -55,7 +55,7 @@ const defaults = {
   async highlighter(code, lang, theme, options) {
     try {
       if (globalThis._importMeta_.browser && window.sessionStorage.getItem("mdc-shiki-highlighter") === "browser") {
-        return import('./mdc-highlighter.mjs').then((h) => h.default(code, lang, theme, options)).catch(() => ({}));
+        return import('../runtime.mjs').then(function (n) { return n.U; }).then((h) => h.default(code, lang, theme, options)).catch(() => ({}));
       }
       return await $fetch("/api/_mdc/highlight", {
         params: {
