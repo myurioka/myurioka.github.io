@@ -18,11 +18,10 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: seoData.mySite,
+    url: 'https://myurioka.github.io',
     identity: {
       type: 'Person',
     },
-    twitter: seoData.twitterHandle,
   },
 
   typescript: {
@@ -34,7 +33,6 @@ export default defineNuxtConfig({
       crawlLinks: true,
       routes: [
         '/',
-        '/rss.xml',
       ],
     },
   },
@@ -49,7 +47,6 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/image',
     '@vueuse/nuxt',
-    'nuxt-og-image',
     '@nuxt/content',
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
