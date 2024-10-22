@@ -758,7 +758,7 @@ const _routes = [
   {
     name: "categories",
     path: "/categories",
-    component: () => import('./index-D1WGC80w.mjs')
+    component: () => import('./index-DNK1bORJ.mjs')
   },
   {
     name: "index",
@@ -840,13 +840,40 @@ function _getHashElementScrollMarginTop(selector) {
   }
   return 0;
 }
+const routerOptions1 = {
+  scrollBehavior: (to, from, savedPosition) => {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        top: 100,
+        behavior: "smooth"
+      };
+    }
+    if (to === from) {
+      return {
+        left: 0,
+        top: 0,
+        behavior: "smooth"
+      };
+    }
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve({
+          left: (savedPosition == null ? void 0 : savedPosition.left) || 0,
+          top: (savedPosition == null ? void 0 : savedPosition.top) || 0
+        });
+      }, 500);
+    });
+  }
+};
 const configRouterOptions = {
   hashMode: false,
   scrollBehaviorType: "auto"
 };
 const routerOptions = {
   ...configRouterOptions,
-  ...routerOptions0
+  ...routerOptions0,
+  ...routerOptions1
 };
 const validate = /* @__PURE__ */ defineNuxtRouteMiddleware(async (to) => {
   var _a;

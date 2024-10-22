@@ -44,19 +44,6 @@ const sources = [
     },
     {
         "context": {
-            "name": "nuxt:route-rules",
-            "description": "Generated from your route rules config.",
-            "tips": [
-                "Can be disabled with `{ excludeAppSources: ['nuxt:route-rules'] }`."
-            ]
-        },
-        "urls": [
-            "/"
-        ],
-        "sourceType": "app"
-    },
-    {
-        "context": {
             "name": "nuxt:prerender",
             "description": "Generated at build time when prerendering.",
             "tips": [
@@ -75,10 +62,10 @@ const sources = [
                 "loc": "/categories"
             },
             {
-                "loc": "/blogs"
+                "loc": "/blogs/fetch-content-data-render-pages"
             },
             {
-                "loc": "/blogs/fetch-content-data-render-pages"
+                "loc": "/blogs"
             },
             {
                 "loc": "/categories/rust"
