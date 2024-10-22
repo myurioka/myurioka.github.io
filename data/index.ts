@@ -1,86 +1,39 @@
 export const navbarData = {
-  homeTitle: 'Programing Retro Game in Rust',
+  homeTitle: 'Programing Retro Game in Rust & Wasm',
 }
 
 export const footerData = {
   author: 'myurioka',
-  aboutAuthor: '',
-  authorInterest: '',
-  aboutTheSite: '',
+  aboutAuthor: 'I enjoy programming as a hobby',
+  authorInterest: 'I love exploring different programming languages and building projects in my spare time. Recently, I have been getting into Rust and WebAssembly',
+  aboutTheSite: 'Programing Retro Game in Rust & Wasm',
 }
 
 export const homePage = {
-  title: 'Welcome To My Blog Site',
-  description: 'Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt, Related Articles, Tips, Learning resources and more.',
+  title: 'Programming Retro Game',
+  description: 'Programming Retro Game in Rust & Wasm.',
 }
 
 export const blogsPage = {
-  title: 'All Blogs',
-  description: 'Here you will find all the blog posts I have written & published on this site.',
+  title: 'Blogs',
+  description: 'BlogsPage',
 }
 
 export const categoryPage = {
   title: 'Categories',
-  description: 'Blow this category is generated from all the tags are mentioned in the different blog post',
+  description: 'CategryPage',
 }
-
 export const aboutPage = {
-  title: 'Al Asad Nur Riyad',
-  description: 'Software Engineer, Problem Solver, Web Enthusiast.',
-  aboutMe: 'Hello, fellow human! I\'m a software wizard who spends most of his day crafting code spells at @AppsCode in the Bytebuilders team. When I\'m not crafting code, you can find me summoning solutions to problems on online judges. Just don\'t ask me to cast any love spells, my magic only works on machines!',
+  title: 'myurioka',
+  description: 'Software Engineer, Hobbyist Programmer',
+  aboutMe: 'When I was a kid,  it was a friend who introduced me to the joy of programming. My friend used code they had created to move characters on a very small monitor. I still remember how excited I felt seeing the characters move just like my friend had made them. Recently, I came across the book Game Development with Rust and WebAssembly by Eric Smith. I’m thinking that programming with Rust and WebAssembly might let me experience that same excitement I felt back then.',
 }
-
 export const seoData = {
-  description: 'Riyad, Software Engineer at AppsCode, with over 2.5+ years experience in software development.',
+  description: 'Programing Game with Rust and WebAssembly ',
   ogTitle: 'Riyad codes and helps others learn Javascript, Typescript, Vue, Nuxt, & Problem Solving',
-  twitterDescription: 'My blog website, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc',
-  image: 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp',
-  mySite: 'https://blog-nurriyad.vercel.app',
-  twitterHandle: '@qdnvubp',
-  mailAddress: 'asadnurriyad@gmail.com',
+  twitterDescription: '',
+  image: '',
+  mySite: 'https://myurioka.github.com',
+  twitterHandle: '',
+  mailAddress: '',
 }
-
-export const siteMetaData = [
-  {
-    name: 'description',
-    content: seoData.description,
-  },
-  // Test on: https://developers.facebook.com/tools/debug/ or https://socialsharepreview.com/
-  { property: 'og:site_name', content: seoData.mySite },
-  { property: 'og:type', content: 'website' },
-  {
-    property: 'og:url',
-    content: seoData.mySite,
-  },
-  {
-    property: 'og:title',
-    content: seoData.ogTitle,
-  },
-  {
-    property: 'og:description',
-    content: seoData.description,
-  },
-  {
-    property: 'og:image',
-    content: seoData.image,
-  },
-  // Test on: https://cards-dev.twitter.com/validator or https://socialsharepreview.com/
-  { name: 'twitter:site', content: seoData.twitterHandle },
-  { name: 'twitter:card', content: 'summary_large_image' },
-  {
-    name: 'twitter:url',
-    content: seoData.mySite,
-  },
-  {
-    name: 'twitter:title',
-    content: seoData.ogTitle,
-  },
-  {
-    name: 'twitter:description',
-    content: seoData.twitterDescription,
-  },
-  {
-    name: 'twitter:image',
-    content: seoData.image,
-  },
-]
