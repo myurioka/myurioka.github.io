@@ -65,16 +65,19 @@ const sources = [
                 "loc": "/blogs"
             },
             {
-                "loc": "/blogs/fetch-content-data-render-pages"
+                "loc": "/blogs/knight"
+            },
+            {
+                "loc": "/blogs/cart"
             },
             {
                 "loc": "/categories/rust"
             },
             {
-                "loc": "/categories/wasm"
+                "loc": "/categories/webassembly"
             },
             {
-                "loc": "/categories/webassembly"
+                "loc": "/categories/wasm"
             }
         ],
         "sourceType": "app"
