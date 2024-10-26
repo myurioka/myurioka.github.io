@@ -727,11 +727,6 @@ async function getRouteRules(url) {
 const _routes = [
   {
     name: "slug",
-    path: "/:slug(.*)*",
-    component: () => import('./_...slug_-B0f-9X7P.mjs')
-  },
-  {
-    name: "slug",
     path: "/:slug()",
     component: () => import('./_slug_-DA2yy7NY.mjs')
   },
@@ -758,7 +753,7 @@ const _routes = [
   {
     name: "categories",
     path: "/categories",
-    component: () => import('./index-DNK1bORJ.mjs')
+    component: () => import('./index-CLapXvCJ.mjs')
   },
   {
     name: "index",

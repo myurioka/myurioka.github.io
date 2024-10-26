@@ -62,10 +62,10 @@ const sources = [
                 "loc": "/categories"
             },
             {
-                "loc": "/blogs/fetch-content-data-render-pages"
+                "loc": "/blogs"
             },
             {
-                "loc": "/blogs"
+                "loc": "/blogs/fetch-content-data-render-pages"
             },
             {
                 "loc": "/categories/rust"
