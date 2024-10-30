@@ -11,7 +11,7 @@ Make sure to install the dependencies:
 npm install
 ```
 
-## Development Server
+## 🚴 UsageDevelopment Server
 
 Start the development server on `http://localhost:3000`:
 
