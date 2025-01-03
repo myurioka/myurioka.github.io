@@ -25,14 +25,15 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <article class="group border dark:border-gray-800  m-2 rounded-2xl overflow-hidden shadow-sm text-zinc-700 dark:text-zinc-300  ">
+  <article class="group border dark:border-gray-800  m-2 overflow-hidden shadow-sm text-zinc-700 dark:text-zinc-300  ">
     <NuxtLink :to="path" class="grid grid-cols-1 sm:grid-cols-10 gap-1">
       <div class="sm:col-span-3">
         <NuxtImg
-          class="h-full w-full object-cover object-center rounded-t-2xl sm:rounded-l-2xl sm:rounded-t-none shadow-lg group-hover:scale-[1.02] transition-all duration-500"
+          class="h-full w-full object-cover object-center sm:rounded-t-none shadow-lg group-hover:scale-[1.02] transition-all duration-300"
           width="300"
           :src="image"
           :alt="alt"
+          :modifiers="{border: '20_FF0000'}"
         />
       </div>
       <div class="sm:col-span-7 p-5">

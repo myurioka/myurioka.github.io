@@ -733,7 +733,7 @@ const _routes = [
   {
     name: "about",
     path: "/about",
-    component: () => import('./about-B5fs6laP.mjs')
+    component: () => import('./about-2ihle9lM.mjs')
   },
   {
     name: "blogs-blog",
@@ -743,7 +743,7 @@ const _routes = [
   {
     name: "blogs",
     path: "/blogs",
-    component: () => import('./index-DVwtmZTu.mjs')
+    component: () => import('./index-CWOV_2Se.mjs')
   },
   {
     name: "categories-category",
@@ -753,12 +753,12 @@ const _routes = [
   {
     name: "categories",
     path: "/categories",
-    component: () => import('./index-CLapXvCJ.mjs')
+    component: () => import('./index-tyiT5Rzs.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-D21PpDpK.mjs')
+    component: () => import('./index-JLA70Mof.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -1448,7 +1448,7 @@ const __nuxt_component_0 = defineComponent({
   }
 });
 const layouts = {
-  default: () => import('./default-CzqL3boV.mjs')
+  default: () => import('./default-Bkx2us2r.mjs')
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",

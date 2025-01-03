@@ -7,7 +7,7 @@ useHead({
     {
       name: 'description',
       content:
-        'Welcome To My Blog. Programming Retro Game in Rust & WebAssembly.',
+        'Welcome To My Blog. Programming Retro Mini Game in Rust & WebAssembly.',
     },
   ],
 })

@@ -71,13 +71,13 @@ const sources = [
                 "loc": "/blogs/cart"
             },
             {
-                "loc": "/categories/rust"
-            },
-            {
                 "loc": "/categories/wasm"
             },
             {
                 "loc": "/categories/webassembly"
+            },
+            {
+                "loc": "/categories/rust"
             }
         ],
         "sourceType": "app"

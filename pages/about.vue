@@ -54,6 +54,7 @@ useHead({
           height="500"
           quality="50"
           class="rounded-md"
+        :modifiers="{border: '20_FF0000'}"
         />
       </div>
       </div>
