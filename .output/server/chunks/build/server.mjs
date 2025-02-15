@@ -733,12 +733,12 @@ const _routes = [
   {
     name: "about",
     path: "/about",
-    component: () => import('./about-2ihle9lM.mjs')
+    component: () => import('./about-5xF6gubQ.mjs')
   },
   {
     name: "blogs-blog",
     path: "/blogs/:blog()",
-    component: () => import('./_blog_-kN5N5wfM.mjs')
+    component: () => import('./_blog_-B9315n8I.mjs')
   },
   {
     name: "blogs",
@@ -748,7 +748,7 @@ const _routes = [
   {
     name: "categories-category",
     path: "/categories/:category()",
-    component: () => import('./_category_-I0xQVn1H.mjs')
+    component: () => import('./_category_-D2_Ofbzq.mjs')
   },
   {
     name: "categories",
@@ -758,7 +758,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-JLA70Mof.mjs')
+    component: () => import('./index-D2fdfHHZ.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {

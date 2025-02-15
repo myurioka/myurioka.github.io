@@ -59,7 +59,13 @@ const sources = [
                 "loc": "/about"
             },
             {
+                "loc": "/blogs/demo01"
+            },
+            {
                 "loc": "/blogs/knight"
+            },
+            {
+                "loc": "/blogs/maze"
             },
             {
                 "loc": "/categories"
@@ -74,10 +80,10 @@ const sources = [
                 "loc": "/categories/wasm"
             },
             {
-                "loc": "/categories/webassembly"
+                "loc": "/categories/rust"
             },
             {
-                "loc": "/categories/rust"
+                "loc": "/categories/webassembly"
             }
         ],
         "sourceType": "app"
